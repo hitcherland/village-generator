@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/village-generator/static/css/main.1b1ace7a.chunk.css",
+    "main.js": "/village-generator/static/js/main.3df8cf72.chunk.js",
+    "main.js.map": "/village-generator/static/js/main.3df8cf72.chunk.js.map",
+    "runtime-main.js": "/village-generator/static/js/runtime-main.1c874e4c.js",
+    "runtime-main.js.map": "/village-generator/static/js/runtime-main.1c874e4c.js.map",
+    "static/js/2.6a69683a.chunk.js": "/village-generator/static/js/2.6a69683a.chunk.js",
+    "static/js/2.6a69683a.chunk.js.map": "/village-generator/static/js/2.6a69683a.chunk.js.map",
+    "index.html": "/village-generator/index.html",
+    "precache-manifest.5c0987d31c9103c0195c55aca529b248.js": "/village-generator/precache-manifest.5c0987d31c9103c0195c55aca529b248.js",
+    "service-worker.js": "/village-generator/service-worker.js",
+    "static/css/main.1b1ace7a.chunk.css.map": "/village-generator/static/css/main.1b1ace7a.chunk.css.map",
+    "static/js/2.6a69683a.chunk.js.LICENSE.txt": "/village-generator/static/js/2.6a69683a.chunk.js.LICENSE.txt",
+    "static/media/CNA21.px": "/village-generator/static/media/CNA21.d2ba8fea.px",
+    "static/media/VSA50.px": "/village-generator/static/media/VSA50.c625e72f.px",
+    "static/media/VSA60.px": "/village-generator/static/media/VSA60.0dc412df.px"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c874e4c.js",
+    "static/js/2.6a69683a.chunk.js",
+    "static/css/main.1b1ace7a.chunk.css",
+    "static/js/main.3df8cf72.chunk.js"
+  ]
+}
