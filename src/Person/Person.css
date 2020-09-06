@@ -1,0 +1,88 @@
+.person {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #eee;
+    margin: 1em;
+    display: inline-block;
+    min-width: 10em;
+    max-width: 17em;
+    padding: 1em;
+}
+
+.person .name {
+    margin: 0;
+}
+
+.person > .name::before {
+    content: "Name: ";
+}
+
+.person .dob::before {
+    content: "D.O.B: ";
+    font-weight: bold;
+}
+
+.person .marital-status::before {
+    content: "marital-status: ";
+    font-weight: bold;
+}
+
+.person .location::before {
+    content: "location: ";
+    font-weight: bold;
+}
+
+.person .profile #background {
+    fill: black;
+
+}
+
+.person .stats {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.person .stats .stat {
+    display: flex;
+    flex-direction: row;
+    padding: 0.2em;
+    flex: 1 1 0px;
+    justify-content: center;
+
+    background-color: white;
+}
+
+.person .stats .stat .name {
+    background: black;
+    color: white;
+}
+
+.person .stats .stat .value {
+    border: 1px solid black;
+    background-color: #ffa;
+}
+
+.person .stats .stat .value.low {
+    background-color: #faa;
+}
+
+.person .stats .stat .value.very.low {
+    background-color: #f44;
+}
+
+.person .stats .stat .value.high {
+    background-color: #afa;
+}
+
+.person .stats .stat .value.very.high {
+    background-color: #4f4;
+}
+
+.person .stats .stat .name,
+.person .stats .stat .value {
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    flex: 1 1 0px;
+}
